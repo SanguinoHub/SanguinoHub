@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Your Name</h1>
+    <p>AI Developer · CSS Experiments · Resources</p>
+    <nav>
+      <a href="#games">Games</a>
+      <a href="#resources">Resources</a>
+      <a href="#agents">AI Agents</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- GAMES SECTION -->
+  <section id="games">
+    <h2>🎮 CSS Games</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Game One</h3>
+        <p>A short description of the game.</p>
+        <a href="games/game1/index.html" class="btn">Play</a>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+  </section>
+
+  <!-- RESOURCES SECTION -->
+  <section id="resources">
+    <h2>📚 Resources</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>My PDF Guide</h3>
+        <p>A helpful resource on topic X.</p>
+        <a href="resources/pdfs/my-resource.pdf" class="btn" download>Download</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI AGENTS SECTION -->
+  <section id="agents">
+    <h2>🤖 AI Agents</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Agent One</h3>
+        <p>Description of what this agent does.</p>
+        <a href="https://github.com/SanguinoHub/agent-repo" class="btn" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>📬 Contact</h2>
+    <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
+    <p>GitHub: <a href="https://github.com/SanguinoHub" target="_blank">github.com/SanguinoHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name · Built with GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
